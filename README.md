@@ -1,6 +1,6 @@
-## Welcome to GitHub Pages
+## Python装饰器
 
-You can use the [editor on GitHub](https://github.com/zzq22018203/Python/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+装饰器本质上是python函数，它可以让其他函数在不需要做任何代码变动的前提下，增加额外功能。装饰器的返回值也是一个函数对象，它经常用于切面需求场景。比如插入日志、性能测试、事务处理、缓存权限、校验等场景，装饰器是解决这类问题的绝佳设计，有了装饰器，我们就可以抽离出大量的函数功能本身无关的雷同代码，并继续重用。概括的讲，装饰器的作用，就是为已经存在的对象添加额外的功能。
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
